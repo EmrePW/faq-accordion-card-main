@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+
+</head>
+<body>
+  <main>
+    <section class="image__section">
+      
+      <div class="back-side">
+        <picture class="background__pattern">
+          <source srcset="images/bg-pattern-desktop.svg" media="(min-width: 850px)">
+          <img src="images/bg-pattern-mobile.svg" alt="">
+        </picture>
+        <picture class="foreground">
+          <source srcset="images/illustration-woman-online-desktop.svg" media="(min-width: 850px)">
+          <img src="images/illustration-woman-online-mobile.svg" alt="">
+        </picture>
+      </div>
+      
+
+      <img class="box" src="images/illustration-box-desktop.svg" alt="box with an @ sign on it">
+      
+    </section>
+
+    <section class="text__section">
+      <h2>FAQ</h2>
+      <div class="question__block">
+        <div>
+          <p class="question__title">How many team members can I invite?</p>
+          <button index="0" class="btn"><img src="images/icon-arrow-down.svg" alt=""></button>
+        </div>
+        <p class="question__answer hidden">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+      </div>
+      <div class="question__block">
+        <div>
+          <p class="question__title">What is the maximum file upload size?</p>
+          <button index="1" class="btn"><img src="images/icon-arrow-down.svg" alt=""></button>
+        </div>
+        <p class="question__answer hidden">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </div>
+      <div class="question__block">
+        <div>
+          <p class="question__title">How do I reset my password?</p>
+          <button index="2" class="btn"><img src="images/icon-arrow-down.svg" alt=""></button>
+        </div>
+        <p class="question__answer hidden" >Click “Forgot password” from the login page or “Change password” from your profile page.
+  A reset link will be emailed to you.</p>
+      </div>
+      <div class="question__block">
+        <div>
+          <p class="question__title">Can I cancel my subscription?</p>
+          <button index="3" class="btn"><img src="images/icon-arrow-down.svg" alt=""></button>
+        </div>
+        <p class="question__answer hidden" >Yes! Send us a message and we’ll process your request no questions asked.</p>
+      </div>
+      <div class="question__block">
+        <div>
+          <p class="question__title">Do you provide additional support?</p>
+          <button index="4" class="btn"><img src="images/icon-arrow-down.svg" alt=""></button>
+        </div>
+        <p class="question__answer hidden">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+      </div>
+
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/EmrePW">EmrePW</a>.
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
