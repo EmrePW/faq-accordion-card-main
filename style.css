@@ -36,8 +36,12 @@
     display: none;
 }
 
-.active{
+.question__answer-active{
     display: block;
+}
+
+.btn-active{
+    transform: rotate(180deg);
 }
 /* general styling*/
 
@@ -164,8 +168,9 @@ main{
     align-items: center;
 }
 
-.question__block > p{
+.question__answer{
     margin-top: .5rem;
+    transition: all .5s ease-in-out;
 }
 
 .question__title{
@@ -177,7 +182,7 @@ main{
     background: transparent;
     cursor: pointer;
     padding: .25rem;
-    /* transform: rotate(180deg); */
+    transition: all .4s ease;
 }
 
 .attribution{
